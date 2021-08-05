@@ -1,2 +1,2 @@
-# Python-Course
-my exercises in the python course
+# Python-Course-exercises
+Practics in the python course
