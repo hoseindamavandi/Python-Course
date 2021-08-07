@@ -7,7 +7,7 @@ Snake print with a length of 'n'
 **input:**
 7
 
-**output: **
+**output:**
 *#*#*#*#
 
 # random list
@@ -16,7 +16,7 @@ create random list with a length of 'n' (no repeat)
 **input:**
 4
 
-**output: **
+**output:**
 [4,1,2,6]
 
 # sort or not sort
@@ -27,7 +27,7 @@ input an array and print that sorted or sorted
 
 1,5,2,3
 
-**output: **
+**output:**
 sort
 
 not sort
