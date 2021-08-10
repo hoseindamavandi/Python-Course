@@ -1,9 +1,9 @@
-### HangMan
+### HangMan:
 Hang Man Game
 
 ---
 
-### Snake
+### Snake:
 Snake print with a length of 'n'
 
 **input:**
@@ -15,31 +15,28 @@ Snake print with a length of 'n'
 
 ```
 *#*#*#*#
-
 ```
 
 ---
 
-### random list
+### random list:
 create random list with a length of 'n' (no repeat)
 
 **input:**
 
 ```
 4
-
 ```
 
 **output:**
 
 ```
 [4,1,2,6]
-
 ```
 
 ---
 
-### sort or not sort
+### sort or not sort:
 input an array and print that sorted or sorted
 
 **input:**
@@ -54,5 +51,4 @@ input an array and print that sorted or sorted
 ```
 sort
 not sort
-
 ```
