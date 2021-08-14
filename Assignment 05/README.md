@@ -1,7 +1,14 @@
 # 2D Array
 ### pascal triangle
 pascal triangle in python
-
+<details>
+  <summary><b>Photo of Pascal Triangle</b></summary>
+  </br>
+  ![image](https://user-images.githubusercontent.com/83751182/129443500-7876c8ce-affc-4783-aab1-65ab8572f59c.png)
+  </br>
+  [Pascal Triangle (wikipedia.org)](https://en.wikipedia.org/wiki/Pascal%27s_triangle)
+  
+</details>
 **input:**
 ```
 7
