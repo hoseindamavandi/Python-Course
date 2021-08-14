@@ -38,6 +38,5 @@ Draw a geometric shape using turtle
 
 **output:**
 
-
-https://user-images.githubusercontent.com/83751182/129448676-6682d5a7-7be0-430f-90f9-99ed96f2807a.mp4
+https://user-images.githubusercontent.com/83751182/129448815-534d1141-a854-46ea-9d36-c5a00263fea9.mp4
 
