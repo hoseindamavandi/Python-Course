@@ -3,7 +3,7 @@
 pascal triangle in python
 <details>
   <summary><b>Photo of Pascal Triangle</b></summary>
-  </br>
+  
   ![image](https://user-images.githubusercontent.com/83751182/129443548-3dfa4769-10dc-493b-af3c-40da1f83a39d.png)
 
   
