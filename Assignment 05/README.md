@@ -30,3 +30,14 @@ pascal triangle in python
 
 ### tic tac toe:
 a game in which two players seek in alternate turns to complete a row, a column, or a diagonal with either three O's or three X's drawn in the spaces of a grid of nine squares.
+
+---
+
+### turtle painting:
+Draw a geometric shape using turtle
+
+**output:**
+
+
+https://user-images.githubusercontent.com/83751182/129448676-6682d5a7-7be0-430f-90f9-99ed96f2807a.mp4
+
