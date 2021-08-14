@@ -6,7 +6,8 @@ pascal triangle in python
   </br>
   ![image](https://user-images.githubusercontent.com/83751182/129443548-3dfa4769-10dc-493b-af3c-40da1f83a39d.png)
 
-  </br>
+  
+  
   [Pascal Triangle (wikipedia.org)](https://en.wikipedia.org/wiki/Pascal%27s_triangle)
   
 </details>
