@@ -1,4 +1,4 @@
-# 2D Array:
+# 2D Array
 ### pascal triangle:
 pascal triangle in python
 <details>
