@@ -1,5 +1,5 @@
 # 2D Array:
-### pascal triangle
+### pascal triangle:
 pascal triangle in python
 <details>
   <summary><b>Photo of Pascal Triangle</b></summary>
@@ -25,3 +25,8 @@ pascal triangle in python
 1       5       10      10      5       1
 1       6       15      20      15      6       1
 ```
+
+---
+
+### tic tac toe:
+a game in which two players seek in alternate turns to complete a row, a column, or a diagonal with either three O's or three X's drawn in the spaces of a grid of nine squares.
