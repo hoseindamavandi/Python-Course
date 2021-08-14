@@ -4,11 +4,13 @@ pascal triangle in python
 <details>
   <summary><b>Photo of Pascal Triangle</b></summary>
   
-  ![image](https://user-images.githubusercontent.com/83751182/129443548-3dfa4769-10dc-493b-af3c-40da1f83a39d.png)
-  
   [Pascal Triangle (wikipedia.org)](https://en.wikipedia.org/wiki/Pascal%27s_triangle)
   
+  ![image](https://user-images.githubusercontent.com/83751182/129443548-3dfa4769-10dc-493b-af3c-40da1f83a39d.png)
+  
+  
 </details>
+
 **input:**
 ```
 7
