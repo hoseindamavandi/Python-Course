@@ -6,7 +6,6 @@
 - Calculate_BMI
 - Educational_Evaluation
  
-#
 
 ## Assignment02
 - **SUM**: Get numbers from users and print sum of numbers
@@ -16,7 +15,6 @@
 - **Dice**: Simulation Dice using **_while_** and **_randint_** 
 - **Fibonacci**: Get a number an append fibonacci series equal to number to list
 
-#
 
 ## Assignment03
 - **HangMan**: HangMan Game
@@ -24,7 +22,6 @@
 - **sort or not sort**: Check that input array is sorted
 - **Snake**: Snake with **_N_** length and with _'*'_ and _'#'_ Characters
 
-#
 
 ## Assignment04
 - **Checkered page**: get 'm' , 'n' and print a Checkered m*n page
@@ -35,7 +32,12 @@
 - **k m m**: get two number and calculate LCM
 - **word counter**: get a Sentence and count words
 
-#
+
+## Assignment05
+- **pascal triangle**: pascal triangle in python
+- **tic tac toe**: a game in which two players seek in alternate turns to complete a row, a column, or a diagonal with either three O's or three X's drawn in the spaces of a grid of nine squares.
+- **turtle painting**: Draw a geometric shape using turtle
+
 
 ## Assignment06
 - Implementation of store project using **List and Dictionary**
