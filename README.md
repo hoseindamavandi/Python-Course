@@ -3,10 +3,10 @@ Python Course Practical Exercises
 
 
 ## Assignment01
-- Calculator
-- Triangle
-- Calculate_BMI
-- Educational_Evaluation
+- **calculator**:Calculator
+- **Triangle**:Triangle
+- **BMI**:Calculate_BMI
+- **Evaluation**:Educational_Evaluation
  
 
 ## Assignment02
