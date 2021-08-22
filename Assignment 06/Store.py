@@ -1,6 +1,7 @@
 from pyfiglet import Figlet
-from os import system, name
+from os import close, system, name
 from termcolor import colored
+import qrcode
 
 def clear():
     if name == 'nt':
@@ -16,12 +17,16 @@ def show_menu():
     print('4 - Search')
     print('5 - Show List')
     print('6 - Buy')
-    print('7 - Exit')
+    print('7 - Qr code')
+    print('8 - Exit')
 
 def show_list():
+
+    clear()
     for i in range(len(PRODUCT)):
         print(PRODUCT[i])
-
+        x = 'hello'[0]
+        
 def Choice():
 
     choice = int(input('Please choose a number: '))
@@ -45,6 +50,9 @@ def Choice():
         buy_product()
     
     elif choice == 7:
+        Qrcode_product()
+
+    elif choice == 8:
         clear()
         f = Figlet(font = 'standard')
         print(f.renderText('goodbye'))
@@ -110,8 +118,10 @@ def Edit_product():
     f =1
     while 1:
         edit_id = input('Enter the id of the product you want to edit:')
+        find =  0
         for i in range(len(PRODUCT)):
             if edit_id == PRODUCT[i]['id']:
+                find = 1
                 show_edit_menu()
                 edit_item = int(input('Please choose a number:'))
                 if edit_item == 1:
@@ -122,8 +132,13 @@ def Edit_product():
                     PRODUCT[i]['price'] = input('enter new price:')
                 if edit_item == 4:
                     PRODUCT[i]['count'] = int(input('enter new count:'))
-        print('Product edited!')
+                print(colored('Product edited!' , 'green'))
+
+        if find == 0 :
+            print(colored('not find' , 'red'))
+        
         editing = input('edit enother product(Y/N):')
+        
         if editing == 'n' or editing == 'N':
             break
         elif editing == 'y' or editing == 'Y':
@@ -140,7 +155,7 @@ def Search_product():
     clear()
     print(colored('Searching...' , 'yellow'))
     while 1:
-        search_id = input('Enter the product ID/NAME you want to search:')
+        search_id = input('Enter the product ID you want to search:')
         find = 0
         for i in range(len(PRODUCT)):
             if search_id == PRODUCT[i]['id']:
@@ -163,12 +178,17 @@ def Delete_product():
     print(colored('Deleting...' , 'yellow'))
     f = 1
     while 1:
-        delete_id = input('Enter the product ID/NAME you want to delete:')
+        delete_id = input('Enter the product ID you want to delete:')
+        find = 0
         for i in range(len(PRODUCT)):
             if delete_id == PRODUCT[i]['id']:
+                find = 1
                 PRODUCT.remove(PRODUCT[i])
+                print(colored('Product Deleted!','green'))
                 break
-        
+        if find == 0 :
+            print(colored('not find' , 'red'))
+
         deleting = input('delete enother product(Y/N):')
         if deleting == 'n' or deleting == 'N':
             break
@@ -186,9 +206,19 @@ def buy_product():
     print(colored('Buying...' , 'yellow'))
     f = 1
     while 1:
-        buy_id = input('Enter the product ID/NAME you want to buy:')
+        buy_id = input('Enter the product ID you want to buy:')
+        how_many = int(input('How many want that this?:'))
+        find = 1
         for i in range(len(PRODUCT)):
-            PRODUCT[i]['count'] = int(PRODUCT[i]['count']) - 1
+            if buy_id == PRODUCT[i]['id']:
+                find = 1
+                if PRODUCT[i]['count'] >= how_many:
+                    PRODUCT[i]['count'] = int(PRODUCT[i]['count']) - how_many
+                elif PRODUCT[i]['count'] < how_many:
+                    print(colored('Not enough inventory!!' , 'red'))
+                    print('Inventory amount of this product is:', int(PRODUCT[i]['count']))
+        if find == 0 :
+            print(colored('not find' , 'red'))
 
         buying = input('buy enother product(Y/N):')
         if buying == 'n' or buying == 'N':
@@ -218,6 +248,29 @@ def write_on_list():
     
 
     f.close()
+
+def Qrcode_product():
+    clear()
+    print(colored('QR code maker...' , 'yellow'))
+    while 1:
+        qrcode_id = input('Enter the product ID you want creat QR code:')
+        find = 0
+        for i in range(len(PRODUCT)):
+            if qrcode_id == PRODUCT[i]['id']:
+                find = 1
+                img = qrcode.make(PRODUCT[i]['id'])
+                img.save('qrcode' + PRODUCT[i]['id'] + '.png')
+                break
+        if find == 0 :
+            print(colored('not find' , 'red'))
+        
+        buying = input('make QRcode enother product(Y/N):')
+        if buying == 'n' or buying == 'N':
+            break
+        elif buying == 'y' or buying == 'Y':
+            pass
+    clear()
+    
 
 PRODUCT = []
 t = 0
