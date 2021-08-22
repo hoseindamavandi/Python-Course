@@ -3,10 +3,10 @@ Python Course Practical Exercises
 
 
 ## Assignment01
-- **calculator**:Calculator
-- **Triangle**:Triangle
-- **BMI**:Calculate_BMI
-- **Evaluation**:Educational_Evaluation
+- **calculator**: Calculator
+- **Triangle**: Triangle
+- **BMI**: Calculate_BMI
+- **Evaluation**: Educational_Evaluation
  
 
 ## Assignment02
@@ -42,8 +42,8 @@ Python Course Practical Exercises
 
 
 ## Assignment06
-- Implementation of store project using **List and Dictionary**
+- **Store**: Implementation of store project using **List and Dictionary**
 
 
-
+## Assignment07
 
