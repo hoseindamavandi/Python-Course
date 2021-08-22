@@ -47,3 +47,4 @@ Python Course Practical Exercises
 
 ## Assignment07
 - **translate**: a program for word-for-word translation
+- **voideo2voice**: a program for convert video files to audio files by **moviepy**
