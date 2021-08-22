@@ -65,16 +65,19 @@ def english2persian():
     clear()
     while 1:
         print(colored('searching for translate from english to persian' , 'yellow'))
-        search_persian = input('enter persian word:')
+        search_english = input('enter english word:').split(' ')
+        
+        for j in range(len(search_english)):
+            find = 0
+            for i in range(len(translate_list)):
+                if search_english[j] == translate_list[i]['english']:
+                    print(translate_list[i]['persian'], end=' ')
+                    find = 1
+                    break
+            if find == 0:
+                print(search_english[j] , end=' ')
 
-        for i in range(len(translate_list)):
-            if search_persian == translate_list[i]['english']:
-                print(translate_list[i]['persian'])
-                break
-        else:
-            print(colored('This word already not exists!' , 'red'))
-
-        continue_add = input('Are you planning to search another word?(Y/N)')
+        continue_add = input('\nAre you planning to search another word?(Y/N)')
         if continue_add == 'n' or continue_add == 'N':
             clear()
             break
@@ -85,17 +88,19 @@ def persian2english():
     clear()
     while 1:
         print(colored('searching for translate from persian to english' , 'yellow'))
-        search_persian = input('enter persian word:')
-        find = 0
-        for i in range(len(translate_list)):
-            if search_persian == translate_list[i]['persian']:
-                print(translate_list[i]['english'])
-                find = 1
-                break
-        if find == 0:
-            print(colored('This word already not exists!' , 'red'))
+        search_persian = input('enter persian word:').split(' ')
 
-        continue_add = input('Are you planning to search another word?(Y/N)')
+        for j in range(len(search_persian)):
+            find = 0
+            for i in range(len(translate_list)):
+                if search_persian[j] == translate_list[i]['persian']:
+                    print(translate_list[i]['english'], end=' ')
+                    find = 1
+                    break
+            if find == 0:
+                print(search_persian[j], end=' ')
+
+        continue_add = input('\nAre you planning to search another word?(Y/N)')
         if continue_add == 'n' or continue_add == 'N':
             clear()
             break
