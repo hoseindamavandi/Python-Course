@@ -46,4 +46,4 @@ Python Course Practical Exercises
 
 
 ## Assignment07
-
+- **translate**: a program for word-for-word translation
