@@ -7,12 +7,12 @@ Use **imageio** to create gifs from multiple images
 ### Complex number:
 calculator for Complex number
 
-### Deduction calculator
+### Deduction calculator:
 calculator for Deduction
 
 ---
 
-### Diamond
+### Diamond:
 crate a Diamond by * 
 
 **input:**
