@@ -48,3 +48,11 @@ Python Course Practical Exercises
 ## Assignment07
 - **translate**: a program for word-for-word translation
 - **voideo2voice**: a program for convert video files to audio files by **moviepy**
+
+## Assignment08
+- **make gif**: Use **imageio** to create gifs from multiple images
+- **Complex number**: calculator for Complex number
+- **Deduction calculator**: calculator for Deduction
+- **Diamond**: crate a Diamond by * 
+- **Rock Paper Scissors**: Rock Paper Scissors Game
+- **clock calculator**: calculator for Time
