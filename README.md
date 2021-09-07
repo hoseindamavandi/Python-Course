@@ -1,6 +1,8 @@
 # Python-Course
+
 Python Course Practical Exercises
 
+![image](https://user-images.githubusercontent.com/83751182/132314139-781d61ed-374c-49ec-9bd4-0724d5730359.png)
 
 ## Assignment01
 - **calculator**: Calculator
