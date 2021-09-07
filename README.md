@@ -63,3 +63,6 @@ Python Course Practical Exercises
 ## Assignment09
 - **Deduction calculator Classical**: a classical program for sum of two deduction - subtraction of two deduction - Multiplication of two deduction - division of two deduction 
 - **clock calculator Classical**: a classical program for calculator for Time
+
+## Assignment10 - mini project
+- [mini project](https://docs.google.com/document/d/1Y1ZgQ_R2yaxR4TWbjaZxEl64BO4ACn2uDmWJdVCvM-c/edit#heading=h.7mnv6zt7vvkm)
