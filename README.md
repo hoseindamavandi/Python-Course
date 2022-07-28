@@ -65,4 +65,5 @@ Python Course Practical Exercises
 - **clock calculator Classical**: a classical program for calculator for Time
 
 ## Assignment10 - mini project
-- [mini project](https://docs.google.com/document/d/1Y1ZgQ_R2yaxR4TWbjaZxEl64BO4ACn2uDmWJdVCvM-c/edit#heading=h.7mnv6zt7vvkm)
+- <img width="679" alt="Screen Shot 1401-05-06 at 4 12 38 PM" src="https://user-images.githubusercontent.com/83751182/181496987-e14dd567-ce81-4821-bdd0-453f18aecea7.png">
+
